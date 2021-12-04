@@ -1,18 +1,15 @@
 .copy-code-button {
-    color: #272822;
-    background-color: #FFF;
-    border-color: #272822;
+    color: var(--button-bg);
     border: 2px solid;
     border-radius: 3px 3px 0px 0px;
-    /* right-align */
     display: block;
     margin-left: auto;
     margin-right: 1rem;
     margin-bottom: 0.5px;
     padding: 3px 8px;
     font-size: 0.8em;
+    background-color: transparent;
 }
-
 .copy-code-button:hover {
     cursor: pointer;
     background-color: #F2F2F2;
